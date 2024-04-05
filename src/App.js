@@ -9,8 +9,6 @@ function App() {
 
 export default App;
 
-import React, { useState } from "react";
-
 const SingleFileUploader = () => {
   const [file, setFile] = useState<File | null>(null);
   const [status, setStatus] = useState<
