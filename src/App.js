@@ -77,7 +77,7 @@ const SingleFileUploader = () => {
   );
 };
 
-const Result = ({ status }: { status: string }) => {
+const Result = ({ status }) => {
   if (status === "success") {
     return <p>✅ File uploaded successfully!</p>;
   } else if (status === "fail") {
