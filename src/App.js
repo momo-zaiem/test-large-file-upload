@@ -13,7 +13,7 @@ function App() {
 export default App;
 
 const SingleFileUploader = () => {
-  const [file, setFile] = useState<File | null>(null);
+  const [file, setFile] = useState(null);
   const [status, setStatus] = useState("initial");
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
