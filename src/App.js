@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 
 function App() {
+   return (
    <>
        <h1>React File Upload</h1>
 
        <h2>Single File Upload</h2>
        <SingleFileUploader />
-    </>;
+    </>
+   );
    
 }
 
