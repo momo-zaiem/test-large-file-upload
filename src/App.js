@@ -1,8 +1,10 @@
 import React from 'react';
 
 function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
+   <h1>React File Upload</h1>
+
+    <h2>Single File Upload</h2>
+    <SingleFileUploader />
 }
 
 export default App;
