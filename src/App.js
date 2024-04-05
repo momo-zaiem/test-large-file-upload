@@ -6,7 +6,7 @@ function App() {
 
        <h2>Single File Upload</h2>
        <SingleFileUploader />
-    </>
+    </>;
    
 }
 
