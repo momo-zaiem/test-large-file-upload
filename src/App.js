@@ -1,10 +1,13 @@
 import React from 'react';
 
 function App() {
-   <h1>React File Upload</h1>
+   <>
+       <h1>React File Upload</h1>
 
-    <h2>Single File Upload</h2>
-    <SingleFileUploader />
+       <h2>Single File Upload</h2>
+       <SingleFileUploader />
+    </>
+   
 }
 
 export default App;
