@@ -14,9 +14,7 @@ export default App;
 
 const SingleFileUploader = () => {
   const [file, setFile] = useState<File | null>(null);
-  const [status, setStatus] = useState<
-    "initial" | "uploading" | "success" | "fail"
-  >("initial");
+  const [status, setStatus] = useState("initial");
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files) {
